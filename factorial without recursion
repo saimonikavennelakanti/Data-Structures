@@ -1,0 +1,18 @@
+INPUT:
+#include<stdio.h>
+int main()
+{
+	int num,i,fact=1;
+	printf("Enter the number:");
+	scanf("%d",&num);
+	for(i=1;i<=num;i++)
+	{
+		fact=fact*i;
+	}
+	printf("Factotial of number=%d",fact);
+	return 0;
+}
+
+OUTPUT:
+Enter the number:5
+Factotial of number=120
